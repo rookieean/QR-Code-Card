@@ -1,7 +1,8 @@
 :root {
-    --primary-color: white;
+    --white: hsl(0, 0%, 100%);
     --secondary-color: hsl(212, 45%, 89%);
     --bacground-color: hsl(216, 15%, 48%);
+    --accent-color: hsl(218, 44%, 22%);
 
     --heading-font: 'Outfit', sans-serif;
     --body-font: 'Karla', sans-serif;
@@ -9,35 +10,47 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     background-color: var(--bacground-color);
-}
-
-.qr-image {
-    margin-top: 60px;
-}
-
-image {
+    font-family: var(--heading-font);
+    justify-content: center;
     align-items: center;
+    display: flex;
+    min-height: 100vh;
 }
 
 .container {
-    height: 577px;
     width: 401px;
-    background-color: var(--primary-color);
-    border-radius: 10px;
-    margin: auto;
-    justify-content: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 10px 20px black;
 }
 
-.heading-title {
-    font-family: var(heading-font);
-    font-size: 24px;
+.qr-image img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.text-content {
+    padding: 24px 12px;
+}
+
+.heading.title {
+    color: var(--accent-color);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .description-card {
-    font-family: var(--body-font);
+    color: rgb(54, 54, 54);
     font-size: 15px;
+    line-height: 1.4;
 }
