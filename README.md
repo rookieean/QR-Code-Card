@@ -8,8 +8,7 @@ Sebuah card sederhana yang menampilkan QR Code dari project Frontend Mentor bagi
 
 ## 📺 Demo
 
-
-
+https://github.com/user-attachments/assets/238c1498-4e5e-4df3-ab75-1027e523fb62
 
 
 ## 📃 Feedback Problem
