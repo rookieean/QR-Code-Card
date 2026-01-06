@@ -1,8 +1,18 @@
-# Frontend Mentor - QR code component
+## 🧑🏻‍💻 QR code component
 
-![Design preview for the QR code component coding challenge](./preview.jpg)
+Sebuah card sederhana yang menampilkan QR Code dari project Frontend Mentor bagi pemula untuk memperlancar dalam belajar code.
 
-### Feedback Problem
+## 👷🏻 Language Code
+
+- HTML and CSS
+
+## 📺 Demo
+
+
+
+
+
+## 📃 Feedback Problem
 
 1. Flexbox: Gunakan display: flex pada body untuk memposisikan kartu tepat di tengah layar.
 2. Responsive Image: Sebaiknya gambar diberikan max-width: 100% agar tidak keluar dari wadahnya.
